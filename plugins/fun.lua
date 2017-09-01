@@ -1,6 +1,6 @@
 
---Begin Fun.lua By @BeyondTeam
---Special Thx To @ToOfan
+--Begin Fun.lua By @ID
+--Special Thx To @ID
 --------------------------------
 
 local function run_bash(str)
@@ -349,108 +349,76 @@ if matches[1] == "helpfun" then
 if not lang then
 helpfun = [[
 _Beyond Manager Fun Help Commands:_
-
 *!time*
 _Get time in a sticker_
-
 *!short* `[link]`
 _Make short url_
-
 *!voice* `[text]`
 _Convert text to voice_
-
 *!tr* `[lang] [word]`
 _Translates multy languages_
 _Example:_
 *!tr fa hi*
-
 *!sticker* `[word]`
 _Convert text to sticker_
-
 *!photo* `[word]`
 _Convert text to photo_
-
 *!calc* `[number]`
 Calculator
-
 *!praytime* `[city]`
 _Get Patent (Pray Time)_
-
 *!tosticker* `[reply]`
 _Convert photo to sticker_
-
 *!tophoto* `[reply]`
 _Convert text to photo_
-
 *!weather* `[city]`
 _Get weather_
-
 *!bazaar* `[App Name]`
 _Search in CafeBazaar market_
-
 *!fibazaar* `[App Name]`
 _Search in CafeBazaar market with app price_
-
 *!fal*
 _Fale Hafez_
-
 _You can use_ *[!/#]* _at the beginning of commands._
-
 *Good luck ;)*]]
 else
 
 helpfun = [[
 _راهنمای فان ربات بیوند منیجر:_
-
 *!time*
 _دریافت ساعت به صورت استیکر_
-
 *!short* `[link]`
 _کوتاه کننده لینک_
-
 *!voice* `[text]`
 _تبدیل متن به صدا_
-
 *!tr* `[lang]` `[word]`
 _ترجمه به زبانهای مختلف_
 _مثال:_
 _!tr en سلام_
-
 *!sticker* `[word]`
 _تبدیل متن به استیکر_
-
 *!photo* `[word]`
 _تبدیل متن به عکس_
-
 *!calc* `[number]`
 _ماشین حساب_
-
 *!praytime* `[city]`
 _اعلام ساعات شرعی_
-
 *!tosticker* `[reply]`
 _تبدیل عکس به استیکر_
-
 *!tophoto* `[reply]`
 _تبدیل استیکر‌به عکس_
-
 *!weather* `[city]`
 _دریافت اب وهوا_
-
 *!bazaar* `[App Name]`
 _جستجو در برنامه های بازار_
-
 *!fibazaar* `[App Name]`
 _جستجو در برنامه های بازار با درج قیمت برنامه_
-
 *!fal*
 _فال حافظ_
-
 *شما میتوانید از [!/#] در اول دستورات برای اجرای آنها بهره بگیرید*
-
 موفق باشید ;)]]
 end
-return helpfun.."\n@BeyondTeam"
+return helpfun.."\n@ID"
 end
 
 end
@@ -477,4 +445,4 @@ return {
 	run = run,
 	}
 
---#by @BeyondTeam :)
+--#by @ID :)

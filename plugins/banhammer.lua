@@ -1,5 +1,5 @@
--- @BeyondTeam
-local function BeyondTeam(msg, matches)
+-- @ID
+local function ID(msg, matches)
 local hash = "group_lang:"..msg.to.id
 local lang = redis:get(hash)
 local data = load_data(_config.moderation.data)
@@ -669,6 +669,6 @@ return {
 "^[!/](gbanlist)$",
 "^[!/](clean) (.*)$",
 	},
-	run = BeyondTeam,
+	run = ID,
 
 }

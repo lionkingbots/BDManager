@@ -1,4 +1,4 @@
--- @BeyondTeam
+-- @ID
 local function getindex(t,id) 
 for i,v in pairs(t) do 
 if v == id then 
@@ -540,123 +540,82 @@ local hash = 'AutoLeaveBot'
 ---------------Help Tools----------------
   if matches[1] == "helptools" and is_admin(msg) then
     local text = [[
-
 _Sudoer And Admins Beyond Bot Help :_
-
 *!visudo* `[username|id|reply]`
 _Add Sudo_
-
 *!desudo* `[username|id|reply]`
 _Demote Sudo_
-
 *!sudolist *
 _Sudo(s) list_
-
 *!adminprom* `[username|id|reply]`
 _Add admin for bot_
-
 *!admindem* `[username|id|reply]`
 _Demote bot admin_
-
 *!adminlist *
 _Admin(s) list_
-
 *!leave *
 _Leave current group_
-
 *!autoleave* `[disable/enable]`
 _Automatically leaves group_
-
 *!chats*
 _List of added groups_
-
 *!grem* `[id]`
 _Remove a group from Database_
-
 *!broadcast* `[text]`
 _Send message to all added groups_
-
 *!bc* `[text] [GroupID]`
 _Send message to a specific group_
-
 *!sendfile* `[folder] [file]`
 _Send file from folder_
-
 *!sendplug* `[plug]`
 _Send plugin_
-
 *!save* `[plugin name] [reply]`
 _Save plugin by reply_
-
 *!savefile* `[address/filename] [reply]`
 _Save File by reply to specific folder_
-
 _You can use_ *[!/]* _at the beginning of commands._
-
 `This help is only for sudoers/bot admins.`
  
 *This means only the sudoers and its bot admins can use mentioned commands.*
-
 *Good luck ;)*]]
 
 local fatext = [[
-
 _راهنمای سودو و مدیران ربات بیوند :_
-
 *!visudo* `[username|id|reply]`
 _ارتقا به مقام سودو_
-
 *!desudo* `[username|id|reply]`
 _حذف مقام سودو_
-
 *!sudolist *
 _لیست سودو_
-
 *!adminprom* `[username|id|reply]`
 _ارتقا به ادمین ربات_
-
 *!admindem* `[username|id|reply]`
 _حذف ادمین ربات_
-
 *!adminlist *
 _لیست ادمین_
-
 *!leave *
 _خروج ربات از گروه فعلی_
-
 *!autoleave* `[disable/enable]`
 _خروج خودکار_
-
 *!chats*
 _لیست گروههای ربات_
-
 *!grem* `[id]`
 _حذف گروه با ایدی از لیست گروههای ربات_
-
 *!broadcast* `[text]`
 _ارسال پیام همگانی به گروههای  ربات_
-
 *!bc* `[text] [GroupID]`
 _ارسال پیام به گروه مورد نظر_
-
 *!sendfile* `[folder] [file]`
 _دریافت فابل از پوشه ربات_
-
 *!sendplug* `[plug]`
 _دریافت پلاگین های ربات_
-
 *!save* `[plugin name] [reply]`
 _ذخیره پلاگین در پوشه پلاگین ها_
-
 *!savefile* `[address/filename] [reply]`
 _ذخیره فایل در پوشه های ربات_
-
 *شما میتوانید از [/!] در اول دستورات برای اجرای آنها بهره بگیرید*
-
 _این راهنما فقط برای سودو ها/ادمین های ربات میباشد!_
-
 `این به این معناست که فقط سودو ها/ادمین های ربات میتوانند از دستورات بالا استفاده کنند!`
-
 *موفق باشید ;)*]]
 if lang then
 return fatext
@@ -693,4 +652,4 @@ return {
   pre_process = pre_process
 }
 
--- @BeyondTeam
+-- @ID
