@@ -17,7 +17,7 @@ An advanced administration bot based on BDMessenger
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/BeyondTeam/BDManager.git
+git clone https://github.com/lionkingbots/BDManager.git
 cd BDManager
 chmod +x beyond.sh
 ./beyond.sh install
