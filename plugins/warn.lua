@@ -1,4 +1,4 @@
-local function ID(msg, matches)
+local function BeyondTeam(msg, matches)
 local hash = "group_lang:"..msg.to.id
 local lang = redis:get(hash)
 local hashwarn = msg.to.id..':warn'
@@ -304,7 +304,7 @@ return {
   "^[#!/](warnlist)$",
 
   },
-  run = ID,
+  run = BeyondTeam,
 	pre_process = pre_process
 }
 
