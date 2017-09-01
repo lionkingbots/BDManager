@@ -1,4 +1,4 @@
---Begin msg_checks.lua By @SoLiD
+--Begin msg_checks.lua By @ID
 local function pre_process(msg)
 if not msg.query then
 local status = getChatAdministrators(msg.to.id)
@@ -403,4 +403,4 @@ return {
 	patterns = {},
 	pre_process = pre_process
 }
---End msg_checks.lua @BeyondTeam
+--End msg_checks.lua @ID
